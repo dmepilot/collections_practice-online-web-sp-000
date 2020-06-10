@@ -14,8 +14,9 @@ end
 
 def swap_elements(array)
  new_array = []
- array.insert(1, array[2])
- array.
+ new_array << (array[2] = array[3])
+   new_array
+ end
 end
 
 def reverse_array(array)
